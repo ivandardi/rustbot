@@ -82,7 +82,7 @@ fn main() -> std::io::Result<()> {
 			channel: Channel::Nightly, // so that inner proc macro gets nightly too
 			// These flags only apply to the glue code
 			crate_type: CrateType::Binary,
-			edition: Edition::E2021,
+			edition: Edition::E2024,
 			mode: Mode::Debug,
 			tests: false,
 		})

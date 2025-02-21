@@ -148,7 +148,7 @@ pub(crate) async fn rustc_id_and_flags(
             Run ?targets for a full list"))?;
 
 	let opt_level = params.get("-Copt-level").unwrap_or("3");
-	let edition = params.get("--edition").unwrap_or("2021");
+	let edition = params.get("--edition").unwrap_or("2024");
 	let flags = itertools::Itertools::intersperse(params
 		.0
 		.iter()
